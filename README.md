@@ -1,45 +1,63 @@
-# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+# hmadrigal.github.io
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `/_data`, `/_layouts`, `/_includes`, `/_sass` and `/assets`, as well as a small part of options of the `/_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
+Tech, personal and pet-project blog, published at <https://hmadrigal.github.io>.
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
+Built with [Jekyll](https://jekyllrb.com/) and the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme. Pushing to `main` builds the site and deploys it to GitHub Pages through [`.github/workflows/pages-deploy.yml`](.github/workflows/pages-deploy.yml).
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
+## Where things live
+
+| To change                       | Edit                                 |
+| ------------------------------- | ------------------------------------ |
+| Blog posts                      | `_posts/YYYY-MM-DD-some-title.md`    |
+| About page                      | `_tabs/about.md`                     |
+| Title, avatar, social links     | `_config.yml`                        |
+| Sidebar contact icons           | `_data/contact.yml`                  |
+| Post share buttons              | `_data/share.yml`                    |
+| Images                          | `assets/img/`                        |
+
+## Writing a post
+
+Create `_posts/2026-11-02-my-first-post.md`:
+
+```markdown
+---
+title: My first post
+date: 2026-11-02 10:00:00 -0600
+categories: [Pet projects, Tools]
+tags: [jekyll]
+---
+
+Write the post here in Markdown.
+```
+
+A post dated in the future is not published until a build runs after that date. See the theme's guide on [writing a new post](https://chirpy.cotes.page/posts/write-a-new-post/) and its [text and typography](https://chirpy.cotes.page/posts/text-and-typography/) samples.
+
+## Previewing locally
+
+Previewing is optional: a push to `main` is all it takes to publish. Either option below serves the site at <http://127.0.0.1:4000> and rebuilds when a file is saved.
+
+**VS Code with Docker Desktop.** Open the folder, choose **Reopen in Container**, then run the **Run Jekyll Server** task (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd>).
+
+**Docker from a terminal:**
 
 ```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+docker run --rm -it -p 4000:4000 -p 35729:35729 -v "${PWD}:/site" -v hmadrigal-blog-gems:/usr/local/bundle -w /site ruby:3.4 sh -c "bundle install && bundle exec jekyll serve -H 0.0.0.0 -l --force_polling"
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+## Publishing
 
-## Prerequisites
-
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of the basic environment. [Git](https://git-scm.com/) also needs to be installed.
-
-## Installation
-
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
-
-Then clone it to your local machine and run:
-
-```
-$ bundle
+```shell
+git add .
+git commit -m "Add my first post"
+git push
 ```
 
-## Usage
+Progress shows up in the repository's [Actions tab](https://github.com/hmadrigal/hmadrigal.github.io/actions). A failed build leaves the live site as it was.
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+## Updating the theme
+
+The theme comes from the `jekyll-theme-chirpy` gem, pinned in `Gemfile`. Files such as `_config.yml` and the workflow come from [chirpy-starter](https://github.com/cotes2020/chirpy-starter), so compare against that repository on a major version bump.
 
 ## License
 
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+Published under the [MIT](LICENSE) license.
