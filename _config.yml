@@ -157,6 +157,7 @@ pwa:
     # shares the same domain name as the current website.
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
+      - "/projects/" # Project pages such as privacy policies must never be stale.
 
 paginate: 10
 
@@ -193,6 +194,30 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
+  # Each section under `_posts` sets the category of its posts. A post that needs
+  # a subcategory must list both, e.g. `categories: [Projects, TriMath]`.
+  - scope:
+      path: _posts/tech
+      type: posts
+    values:
+      categories: [Tech]
+  - scope:
+      path: _posts/personal
+      type: posts
+    values:
+      categories: [Personal]
+      hidden: true # Keep personal posts off the home page.
+  - scope:
+      path: _posts/projects
+      type: posts
+    values:
+      categories: [Projects]
+  # Static pages and files for each project, kept out of the blog.
+  - scope:
+      path: projects
+    values:
+      layout: page
+      sitemap: false
   - scope:
       path: _drafts
     values:
