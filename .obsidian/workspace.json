@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "5342d8bddceb9914",
+    "type": "split",
+    "children": [
+      {
+        "id": "392d1362bcdf4a15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0b2510bb13e1830",
+            "type": "leaf",
+            "state": {
+              "type": "hmb-scm-diff",
+              "state": {
+                "request": {
+                  "kind": "working",
+                  "change": {
+                    "path": ".obsidian/app.json",
+                    "index": "?",
+                    "worktree": "?"
+                  },
+                  "staged": false
+                }
+              },
+              "icon": "file-diff",
+              "title": "app.json (working tree)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e018e1ec904b8d07",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf857f3967617d66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfe35280c0bcb66e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5cbb8cc0e03a869d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a383f3a959bfc94c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d6564d46bb0c9c39",
+    "type": "split",
+    "children": [
+      {
+        "id": "890cc4a87e29b033",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c043f0dc4c1af534",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "58fe78cadce6c610",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "31fa202fb1a55695",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6c6c6acdd9b66369",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "dbcce936bdc18548",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled 1.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "ee2c2ccc9de96e3a",
+            "type": "leaf",
+            "state": {
+              "type": "hmb-scm-changes",
+              "state": {},
+              "icon": "git-branch",
+              "title": "Git changes"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 348.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "hmb-vault-scm-git:Open Git changes": false
+    }
+  },
+  "active": "d0b2510bb13e1830",
+  "lastOpenFiles": [
+    "Untitled.base",
+    "_posts/personal/2026-11-02.md",
+    "projects/trimath/assets",
+    "projects/trimath",
+    "projects",
+    "assets/img/posts",
+    "assets/img",
+    "_tabs/tech.md",
+    "_tabs/projects.md",
+    "_tabs/personal.md",
+    "_posts/tech",
+    "_posts/projects",
+    "_posts/personal",
+    "_includes/update-list.html",
+    "_includes/section-posts.html",
+    "README.md"
+  ]
+}
