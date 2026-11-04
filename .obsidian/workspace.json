@@ -20,8 +20,29 @@
               "icon": "lucide-file",
               "title": "2026-11-02-IA-and-software-development"
             }
+          },
+          {
+            "id": "14ccd07f22de7c61",
+            "type": "leaf",
+            "state": {
+              "type": "hmb-scm-diff",
+              "state": {
+                "request": {
+                  "kind": "working",
+                  "change": {
+                    "path": "_posts/personal/2026-11-02-IA-and-software-development.md",
+                    "index": "?",
+                    "worktree": "?"
+                  },
+                  "staged": false
+                }
+              },
+              "icon": "file-diff",
+              "title": "2026-11-02-IA-and-software-development.md (working tree)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -197,7 +218,7 @@
       "hmb-vault-scm-git:Open Git changes": false
     }
   },
-  "active": "ee2c2ccc9de96e3a",
+  "active": "14ccd07f22de7c61",
   "lastOpenFiles": [
     "_posts/personal/2026-11-02-IA-and-software-development.md",
     "Untitled.base",
