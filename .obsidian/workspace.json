@@ -20,29 +20,8 @@
               "icon": "lucide-file",
               "title": "2026-11-02-IA-and-software-development"
             }
-          },
-          {
-            "id": "dfa4e369689f87e7",
-            "type": "leaf",
-            "state": {
-              "type": "hmb-scm-diff",
-              "state": {
-                "request": {
-                  "kind": "working",
-                  "change": {
-                    "path": ".obsidian/workspace.json",
-                    "index": " ",
-                    "worktree": "M"
-                  },
-                  "staged": false
-                }
-              },
-              "icon": "file-diff",
-              "title": "workspace.json (working tree)"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,7 +197,7 @@
       "hmb-vault-scm-git:Open Git changes": false
     }
   },
-  "active": "dfa4e369689f87e7",
+  "active": "ee2c2ccc9de96e3a",
   "lastOpenFiles": [
     "_posts/personal/2026-11-02-IA-and-software-development.md",
     "Untitled.base",
