@@ -206,7 +206,6 @@ defaults:
       type: posts
     values:
       categories: [Personal]
-      hidden: true # Keep personal posts off the home page.
   - scope:
       path: _posts/projects
       type: posts

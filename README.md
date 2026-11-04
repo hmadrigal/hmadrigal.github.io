@@ -35,7 +35,7 @@ Write the post here in Markdown.
 
 The folder sets the category, so `categories` is only needed for a subcategory. That line replaces the folder's category, so list both, as in `categories: [Projects, TriMath]`.
 
-Posts in `_posts/personal/` stay off the home page and its Recently Updated panel, but still appear in the Personal section, search, the RSS feed and the previous/next buttons of other posts.
+To keep a post off the home page and its Recently Updated panel, add `hidden: true` to its front matter. It still appears in its section, search, the RSS feed and the previous/next buttons of other posts.
 
 A post dated in the future is not published until a build runs after that date. See the theme's guide on [writing a new post](https://chirpy.cotes.page/posts/write-a-new-post/) and its [text and typography](https://chirpy.cotes.page/posts/text-and-typography/) samples.
 
