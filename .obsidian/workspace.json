@@ -4,45 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "392d1362bcdf4a15",
+        "id": "159308286c0a894e",
         "type": "tabs",
         "children": [
           {
-            "id": "d0b2510bb13e1830",
+            "id": "ec423888cb7d1fe1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/personal/2026-11-02-IA-and-software-development.md",
+                "file": "_posts/projects/papervault/Mad Herb Lab Dev.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-11-02-IA-and-software-development"
-            }
-          },
-          {
-            "id": "14ccd07f22de7c61",
-            "type": "leaf",
-            "state": {
-              "type": "hmb-scm-diff",
-              "state": {
-                "request": {
-                  "kind": "working",
-                  "change": {
-                    "path": "_posts/personal/2026-11-02-IA-and-software-development.md",
-                    "index": "?",
-                    "worktree": "?"
-                  },
-                  "staged": false
-                }
-              },
-              "icon": "file-diff",
-              "title": "2026-11-02-IA-and-software-development.md (working tree)"
+              "title": "Mad Herb Lab Dev"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.base",
+                "file": "_posts/projects/papervault/Mad Herb Lab Dev.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,7 +169,7 @@
             }
           },
           {
-            "id": "ee2c2ccc9de96e3a",
+            "id": "8321fdd49db50aef",
             "type": "leaf",
             "state": {
               "type": "hmb-scm-changes",
@@ -218,8 +197,17 @@
       "hmb-vault-scm-git:Open Git changes": false
     }
   },
-  "active": "14ccd07f22de7c61",
+  "active": "ec423888cb7d1fe1",
   "lastOpenFiles": [
+    "_posts/projects/papervault/PaperVault.md",
+    "_posts/projects/papervault/Privacy Policy for PaperVault.md",
+    "_posts/projects/papervault/Mad Herb Lab Dev.md",
+    "_posts/projects/papervault/Mad-Herb-Lab-Dev.md",
+    "Mad.md",
+    "_posts/projects/papervault",
+    "projects/papervault/assets",
+    "projects/papervault",
+    "_config.yml.tmp.27984.6620fd30cbdf",
     "_posts/personal/2026-11-02-IA-and-software-development.md",
     "Untitled.base",
     "projects/trimath/assets",
@@ -230,10 +218,6 @@
     "_tabs/tech.md",
     "_tabs/projects.md",
     "_tabs/personal.md",
-    "_posts/tech",
-    "_posts/projects",
-    "_posts/personal",
-    "_includes/update-list.html",
     "README.md"
   ]
 }

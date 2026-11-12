@@ -1,5 +1,16 @@
-**Effective Date:** November 11, 2026  
-**Developer:** [[Mad Herb Lab Dev]]  
+---
+title: Privacy Policy for PaperVault
+date: 2026-11-11 14:00:00 -0600
+permalink: /projects/papervault/privacy-policy/
+tags:
+  - PaperVault
+  - Privacy Policy
+---
+
+# Privacy Policy for PaperVault
+
+**Effective Date:** November 11, 2026
+**Developer:** [[Mad Herb Lab Dev]]
 **Contact Email:** [madherblab@gmail.com](mailto:madherblab@gmail.com)
 
 ## 1. Overview
